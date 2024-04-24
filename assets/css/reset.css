@@ -1,0 +1,55 @@
+/* Сброс отступов и полей для всех элементов на странице */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+*, 
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+/*  Сброс границы */
+* {
+  border: 0;
+}
+
+/* Сброс шрифтов */
+body {
+  font-size: Arial, sans-sarif;
+  line-height: 1;
+}
+
+nav, footer, header, section {
+  display: block;
+}
+
+h1, h2, h3, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* Сброс стилей списка */
+ul, li {
+  list-style: none;
+}
+
+/*  Сброс стиля ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Обнуление стилей ввода */
+button, select {
+  border-radius: 0;
+  border: 1px solid transparent;
+  outline: none;
+}
+
+/* Сброс внутреннего пространства */
+body, button, select, textarea {
+  padding: 0;
+}
