@@ -9,7 +9,6 @@
   top: 50%;
   transform: translateY(-50%) rotate(45deg);
   transition: all 2s;
-
 }
 
 .burger.active span {
