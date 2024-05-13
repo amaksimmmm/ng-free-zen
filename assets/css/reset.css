@@ -1,6 +1,7 @@
 * {
   margin: 0;    
-  padding: 0;   
+  padding: 0;  
+  box-sizing: border-box; 
 }
 
 ul,
@@ -23,6 +24,7 @@ button {
 select {
   border: none;
   appearance: none;
+  background: none;
 }
 
 h1,
