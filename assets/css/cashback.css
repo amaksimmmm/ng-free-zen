@@ -1,5 +1,7 @@
 .cashback {
   padding: 30px 15px;
+
+  border: 2px dashed red;
 }
 
 .cashback__wrapper {
@@ -7,8 +9,8 @@
   flex-direction: column;
 }
 
-/* .cashback__text-block {
-} */
+.cashback__text-block {
+}
 
 .cashback__title {
   font-size: 26px;
