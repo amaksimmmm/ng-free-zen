@@ -1,0 +1,17 @@
+.clients {
+  padding: 30px 15px;
+}
+
+/* .clients__wrapper {  
+} */
+
+.clients__brands {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.clients__brand {
+  width: 130px;
+  height: 47px; 
+}

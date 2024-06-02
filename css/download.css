@@ -32,14 +32,14 @@
   height: 44px;
 }
 
-.download__imege-block {
+.download__image-block {
   height: 72vw;
   border: 1px solid #aaa;
   border-radius: 20px;
   overflow: hidden;
 }
 
-.download__imege-block img {
+.download__image-block img {
   display: block;
   height: 100%;
   object-fit: cover;
