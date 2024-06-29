@@ -47,11 +47,11 @@
 #policy {
   position: relative;
   content: '';
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   cursor: pointer;
   background: #00A1FF;
-  border: 2px solid #fff;
+  border: 2px solid #00A1FF;
   border-radius: 4px;
   vertical-align: sub;
   margin-right: 5px;
@@ -59,7 +59,7 @@
 
 #policy:checked {
   background-color: #00A1FF;
-  border: 2px solid #fff;
+  border: 2px solid #ccc;
 }
 
 #policy:checked::before {
