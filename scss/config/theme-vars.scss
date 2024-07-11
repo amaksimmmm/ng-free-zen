@@ -1,0 +1,23 @@
+.app {
+  &.light {
+    // color:
+    --color-primary: #000;
+
+    // border-color:
+    --border-color-primary: #aaa;
+
+    //bg-color:
+    --bg-color-primary: #fff;
+  }
+  
+  &.dark {
+    // color:
+    --color-primary: #fff;
+
+    // border-color:
+    --border-color-primary: #fff;
+
+    //bg-color:
+    --bg-color-primary: #484848;
+  }
+}
