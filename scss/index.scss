@@ -1,5 +1,7 @@
 @import 'utils/mixins';
-@import 'config/variables.scss';
+@import 'config/theme-vars.scss';
+@import 'config/vars.scss';
+@import 'config/breakpoints.scss';
 @import 'config/reset';
 @import 'config/fonts';
 @import 'config/global';
