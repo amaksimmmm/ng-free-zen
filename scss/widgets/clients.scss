@@ -8,8 +8,9 @@
 
 .clients__brands {
   display: grid;
-  gap: $gap-size;
+  gap: $gap-big-size;
   grid-template-columns: repeat(2, 1fr);
+  color: var(--color-primary);
 }
 
 /* .clients__brand {
