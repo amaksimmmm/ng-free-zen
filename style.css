@@ -1,3 +1,14 @@
+.app.light {
+  --color-primary: #000;
+  --border-color-primary: #aaa;
+  --bg-color-primary: #fff;
+}
+.app.dark {
+  --color-primary: #fff;
+  --border-color-primary: #fff;
+  --bg-color-primary: #484848;
+}
+
 /* reset */
 *,
 *::before,
@@ -46,36 +57,18 @@ select {
 /* fonts */
 @font-face {
   font-family: "Nunito";
-  src: url("/assets/fonts/Nunito/fileName.woff2") format("woff2");
-  src: url("/assets/fonts/Nunito/fileName.woff") format("woff");
-  src: url("/assets/fonts/Nunito/fileName.ttf") format("truetype");
+  src: url("assets/fonts/Nunito/Nunito-Regular.woff2") format("woff2");
+  src: url("assets/fonts/Nunito/Nunito-Regular.woff") format("woff");
+  src: url("assets/fonts/Nunito/Nunito-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Nunito";
-  src: url("/assets/fonts/Nunito/fileName.ttf") format("truetype");
-  src: url("/assets/fonts/Nunito/fileName.woff") format("woff");
-  src: url("/assets/fonts/Nunito/fileName.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Nunito";
-  src: url("/assets/fonts/Nunito/fileName.woff2") format("woff2");
-  src: url("/assets/fonts/Nunito/fileName.woff") format("woff");
-  src: url("/assets/fonts/Nunito/fileName.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Nunito";
-  src: url("/assets/fonts/Nunito/fileName.ttf") format("truetype");
-  src: url("/assets/fonts/Nunito/fileName.woff") format("woff");
-  src: url("/assets/fonts/Nunito/fileName.woff2") format("woff2");
+  src: url("assets/fonts/Nunito/Nunito-Bold.woff2") format("woff2");
+  src: url("assets/fonts/Nunito/Nunito-Bold.woff") format("woff");
+  src: url("assets/fonts/Nunito/Nunito-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -86,6 +79,10 @@ body {
   font-family: "Nunito", sans-serif;
   font-size: 14px;
   font-weight: 400;
+}
+
+.app {
+  background: var(--bg-color-primary);
 }
 
 input {
@@ -113,7 +110,7 @@ img {
 .menu__item {
   padding: 24px 15px;
   font-size: 24px;
-  border-bottom: 1px solid #aaa;
+  border-bottom: 1px solid var(--border-color-primary);
 }
 
 /* burger */
@@ -145,7 +142,7 @@ img {
   display: block;
   width: 100%;
   height: 2px;
-  background: #000;
+  background: var(--color-primary);
   position: absolute;
   top: 0;
   left: 0;
@@ -155,7 +152,7 @@ img {
   display: block;
   width: 100%;
   height: 2px;
-  background: #000;
+  background: var(--color-primary);
 }
 
 .burger::after {
@@ -163,7 +160,7 @@ img {
   display: block;
   width: 100%;
   height: 2px;
-  background: #000;
+  background: var(--color-primary);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -175,22 +172,19 @@ img {
   width: 40px;
   height: 40px;
 }
-
-.column__title {
+.column img__title {
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
 }
-
-.column__list {
+.column img__list {
   margin-top: 20px;
   font-size: 14px;
   line-height: 20px;
   display: grid;
   gap: 10px;
 }
-
-.column__item {
+.column img__item {
   font-size: 14px;
 }
 
@@ -200,35 +194,31 @@ img {
   top: 0;
   left: 0;
   right: 0;
-  background: #fff;
-  border-bottom: 1px solid #AAA;
+  background: var(--bg-color-primary);
+  border-bottom: 1px solid #aaa;
+  /* .header__nav {
+  } */
 }
-
 .header__wrapper {
   height: 50px;
   padding: 0 15px;
   display: flex;
   align-items: center;
 }
-
 .header__logo {
   width: 77px;
   height: 30px;
+  color: var(--color-primary);
 }
-
 .header__logo img {
   height: 100%;
 }
-
-/* .header__nav {
-} */
 .header__actions {
   margin-left: auto;
   display: flex;
   align-items: center;
   gap: 20px;
 }
-
 .header__lang {
   position: relative;
   display: flex;
@@ -239,7 +229,6 @@ img {
   border-radius: 4px;
   overflow: hidden;
 }
-
 .header__lang img {
   position: absolute;
   z-index: -1;
@@ -249,13 +238,11 @@ img {
   width: 9px;
   height: 6px;
 }
-
 .header__lang select {
   padding-left: 8px;
   height: 100%;
   width: 100%;
 }
-
 .header__theme {
   width: 26px;
   height: 26px;
@@ -264,44 +251,39 @@ img {
 /* download */
 .download {
   padding: 30px 15px;
+  /* .download__text-block {} */
 }
-
 .download__wrapper {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-
-/* .download__text-block {} */
 .download__title {
   font-size: 30px;
   font-weight: 700;
+  color: var(--color-primary);
 }
-
 .download__copy {
   margin-top: 20px;
+  color: var(--color-primary);
 }
-
 .download__links {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
-
 .download__link {
   display: block;
   width: 150px;
   height: 44px;
 }
-
 .download__image-block {
   height: 72vw;
   border: 1px solid #aaa;
   border-radius: 20px;
   overflow: hidden;
 }
-
 .download__image-block img {
   display: block;
   height: 100%;
@@ -311,36 +293,32 @@ img {
 /* warranty */
 .warranty {
   padding: 30px 15px;
+  /* .warranty__text-block {
+  } */
 }
-
 .warranty__wrapper {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-
-/* .warranty__text-block {
-} */
 .warranty__title {
   font-size: 26px;
   font-weight: 700;
+  color: var(--color-primary);
 }
-
 .warranty__copy {
   margin-top: 10px;
+  color: var(--color-primary);
 }
-
 .warranty__copy:first-of-type {
   margin-top: 20px;
 }
-
 .warranty__image-block {
   height: 72vw;
   border: 1px solid #aaa;
   border-radius: 20px;
   overflow: hidden;
 }
-
 .warranty__image-block img {
   display: block;
   height: 100%;
@@ -350,36 +328,32 @@ img {
 /* care */
 .care {
   padding: 30px 15px;
+  /* .care__text-block {
+  } */
 }
-
 .care__wrapper {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-
-/* .care__text-block {
-} */
 .care__title {
   font-style: 26px;
   font-weight: 700;
+  color: var(--color-primary);
 }
-
 .care__copy:first-of-type {
   margin-top: 20px;
+  color: var(--color-primary);
 }
-
 .care__copy {
   margin-top: 10px;
 }
-
 .care__image-block {
   height: 72vw;
   border: 1px solid #aaa;
   border-radius: 20px;
   overflow: hidden;
 }
-
 .care__image-block img {
   display: block;
   height: 100%;
@@ -390,25 +364,22 @@ img {
 .cashback {
   padding: 30px 15px;
 }
-
 .cashback__wrapper {
   display: flex;
   flex-direction: column;
 }
-
 .cashback__title {
   font-size: 26px;
   font-weight: 700;
+  color: var(--color-primary);
 }
-
 .cashback__copy:first-of-type {
   margin-top: 20px;
 }
-
 .cashback__copy {
   margin-top: 10px;
+  color: var(--color-primary);
 }
-
 .cashback__button {
   margin-top: 20px;
   align-items: center;
@@ -432,6 +403,7 @@ img {
   display: grid;
   gap: 30px;
   grid-template-columns: repeat(2, 1fr);
+  color: var(--color-primary);
 }
 
 /* .clients__brand {
@@ -462,7 +434,7 @@ img {
   display: block;
   width: 216px;
   height: 23px;
-  color: #fff;
+  color: var(--color-primary);
 }
 
 .footer__copy {
@@ -506,7 +478,7 @@ img {
   padding: 30px 20px;
   display: grid;
   gap: 20px;
-  background: #fff;
+  background: var(--bg-color-primary);
   border-radius: 5px;
 }
 
