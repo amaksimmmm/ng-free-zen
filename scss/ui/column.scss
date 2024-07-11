@@ -3,22 +3,22 @@
   display: block;
   width: 40px;
   height: 40px;
-}
-
-.column__title {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 22px;
-}
-
-.column__list {
-  margin-top: 20px;
-  font-size: 14px;
-  line-height: 20px;
-  display: grid;
-  gap: 10px;
+  
+  &__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
   }
   
-.column__item {
-  font-size: 14px;
+  &__list {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    display: grid;
+    gap: $gap-smoll-size;
+    }
+    
+  &__item {
+    font-size: 14px;
+  }
 }
