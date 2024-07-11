@@ -7,13 +7,13 @@
 
 .footer__wrapper {
   display: grid;
-  gap: $gap-size;
+  gap: $gap-big-size;
 }
 
 .footer__columns {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: $gap-size;
+  gap: $gap-big-size;
 }
 
 /* .footer__info {
@@ -23,7 +23,7 @@
   display: block;
   width: 216px;
   height: 23px;
-  color: $color-white;
+  color: var(--color-primary);
 }
   
 .footer__copy {
