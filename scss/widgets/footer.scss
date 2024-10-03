@@ -1,18 +1,19 @@
+/* footer */
 .footer {
   padding: 30px 15px;
-  color: #fff;
+  color: $color-white;
   background: #484848;
 }
 
 .footer__wrapper {
   display: grid;
-  gap: 30px;
+  gap: $gap-big-size;
 }
 
 .footer__columns {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
+  gap: $gap-big-size;
 }
 
 /* .footer__info {
@@ -22,7 +23,7 @@
   display: block;
   width: 216px;
   height: 23px;
-  color: #fff;
+  color: var(--color-primary);
 }
   
 .footer__copy {

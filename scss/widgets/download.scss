@@ -1,0 +1,51 @@
+/* download */
+.download {
+  padding: 30px 15px;
+  
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: $gap-big-size;
+  }
+  
+  /* .download__text-block {} */
+  
+  &__title {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+  
+  &__copy {
+    margin-top: 20px;
+    color: var(--color-primary);
+  }
+  
+  &__links {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  &__link {
+    display: block;
+    width: 150px;
+    height: 44px;
+  }
+  
+  &__image-block {
+    height: 72vw;
+    border: 1px solid var(--border-color-primary);
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  &__image-block img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+
