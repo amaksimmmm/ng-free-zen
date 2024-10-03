@@ -28,7 +28,7 @@
   
   &__image-block {
     height: 72vw;
-    border: 1px solid #aaa;
+    border: 1px solid var(--border-color-primary);
     border-radius: 20px;
     overflow: hidden;
   }

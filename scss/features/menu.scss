@@ -1,7 +1,7 @@
 /* menu */
 .menu {
   display: none;
-  background: $color-white;
+  background: var(--color-primary);
 }
 
 .menu.active {

@@ -8,9 +8,6 @@
     gap: $gap-big-size;
   }
   
-  /* .care__text-block {
-  } */
-  
   &__title {
     font-style: 26px;
     font-weight: 700;
@@ -24,11 +21,12 @@
   
   &__copy {
     margin-top: 10px;
+    color: var(--color-primary);
   }
   
   &__image-block {
     height: 72vw;
-    border: 1px solid #aaa;
+    border: 1px solid var(--border-color-primary);
     border-radius: 20px;
     overflow: hidden;
   }
