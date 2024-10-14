@@ -34,8 +34,11 @@ export const data = {
     ],
   },
   download: {
-    title: 'Peaceful shopping mindful money',
-    text: [
+    title: {
+      content: 'Peaceful shopping mindful money',
+      priority: 1,
+    },
+    texts: [
       'See how we can help with making your shopping experience and money management more ZEN.',
     ],
     links: [
@@ -48,7 +51,7 @@ export const data = {
         url: 'https://google.com',
       },
     ],
-    imageBlock: {
+    image: {
       source: './assets/images/1.jpg',
       description: 'Bag and device'
     },
