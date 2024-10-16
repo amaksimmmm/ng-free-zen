@@ -1,4 +1,4 @@
-import { TitleData } from './../../ui/Title/types'
+import { TitleData } from './../../ui/Title/types';
 
 export type CashbackData = {
   title: TitleData[];
