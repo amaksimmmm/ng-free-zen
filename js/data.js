@@ -2,34 +2,34 @@ export const data = {
   primaryInfo: {
     langs: [
       {
-        key: 'en',
-        name: 'EN'
+        name: 'EN',
+        key: 'en'
       },
       {
-        key: 'ru',
-        name: 'RU'
+        name: 'RU',
+        key: 'ru'
       },
     ],
     navigation: [
       {
-        key: 'download',
-        name: 'Download'
+        name: 'Download',
+        key: 'download'
       },
       {
-        key: 'warranty',
-        name: 'Warranty'
+        name: 'Warranty',
+        key: 'warranty'
       },
       {
-        key: 'care',
-        name: 'Care'
+        name: 'Care',
+        key: 'care'
       },
       {
-        key: 'cashback',
-        name: 'Cashback'
+        name: 'Cashback',
+        key: 'cashback'
       },
       {
-        key: 'clients',
-        name: 'Clients'
+        name: 'Clients',
+        key: 'clients'
       },
     ],
   },

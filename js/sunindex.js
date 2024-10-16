@@ -1,5 +1,5 @@
-import { generateSunIcon } from './sunui/generateSunIcon.js';
-import { generateMoonIcon } from './sunui/generateMoonIcon.js';
+import { generateSunIcon } from './ui/Icons/IconTheme/generateSunIcon.js';
+import { generateMoonIcon } from './ui/Icons/IconTheme/generateMoonIcon.js';
 
 // const $app = document.querySelector('#app');
 // const $themeButton = document.querySelector('#theme');
