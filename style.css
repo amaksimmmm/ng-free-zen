@@ -5,7 +5,7 @@
 }
 .app.dark {
   --color-primary: #fff;
-  --border-color-primary: #fff;
+  --border-color-primary: #aaa;
   --bg-color-primary: #484848;
 }
 
@@ -73,6 +73,7 @@ select {
   font-style: normal;
   font-display: swap;
 }
+
 /* global */
 body {
   padding-top: 50px;
@@ -93,21 +94,20 @@ img {
   width: 100%;
 }
 
-/* menu */
-.menu {
+/* nav */
+.nav {
   display: none;
-  background: var(--color-primary);
 }
-
-.menu.active {
+.nav.active {
   display: block;
   position: fixed;
   top: 51px;
   left: 0;
   right: 0;
+  width: 100%;
+  background: var(--border-color-primary);
 }
-
-.menu__item {
+.nav__item {
   padding: 24px 15px;
   font-size: 24px;
   border-bottom: 1px solid var(--border-color-primary);
@@ -206,6 +206,7 @@ img {
 }
 .header__logo svg {
   height: 100%;
+  fill: currentColor;
 }
 .header__actions {
   margin-left: auto;
@@ -219,14 +220,14 @@ img {
   align-items: center;
   width: 50px;
   height: 30px;
-  border: 1px solid var(--color-primary);
+  border: 1px solid var(--border-color-primary);
   border-radius: 4px;
   overflow: hidden;
   color: var(--color-primary);
 }
 .header__lang svg {
   position: absolute;
-  z-index: -1;
+  z-index: 1;
   top: 50%;
   right: 8px;
   transform: translateY(-50%);
@@ -395,7 +396,7 @@ img {
   padding: 30px 15px;
 }
 
-/* .clients__wrapper {  
+/* .clients__wrapper {
 } */
 .clients__brands {
   display: grid;
@@ -406,7 +407,7 @@ img {
 
 /* .clients__brand {
   width: 130px;
-  height: 47px; 
+  height: 47px;
 } */
 /* footer */
 .footer {
