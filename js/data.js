@@ -82,7 +82,7 @@ export const data = {
     ],
     image: {
       source: './assets/images/3.jpg',
-      description: 'Card'
+      description: 'Card',
     },
   },
   cashback: {
