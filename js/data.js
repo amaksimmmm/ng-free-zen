@@ -71,15 +71,18 @@ export const data = {
     },
   },
   care: {
-    title: 'ZEN Care',
+    title: {
+      content: 'ZEN Care',
+      priority: 2,
+    },
     texts: [
       'Shopping online is usually a delightful experience. Until it\'s not.',
       'Until something you buy, proves to be faulty, missing or a totally wrong item, you’re in for long product return procedures.',
       'But, here comes ZEN Care: a free, built-in shopping protection.',
     ],
-    imageBlock: {
+    image: {
       source: './assets/images/3.jpg',
-      description: 'Card'
+      description: 'Card',
     },
   },
   cashback: {
