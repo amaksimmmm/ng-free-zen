@@ -14,7 +14,7 @@ import { Burger } from '../../features/Burger/index.js';
  * @returns {string} HTML
  */
 
-export const Header = (data) =>{
+export const Header = (data) => {
   const { langs, navigation } = data;
 
   return `
@@ -32,4 +32,4 @@ export const Header = (data) =>{
       </div>
     </header>
   `;
-}
+};
