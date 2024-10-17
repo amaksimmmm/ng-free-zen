@@ -102,57 +102,57 @@ export const data = {
       {
         name: 'rosegal',
         logo:{
-          lightsource: 'assets/brands/1_Sun.svg',
-          darksource: 'assets/brands/1_Dark.svg',
+          lightsource: 'assets/brands/light/1_Sun.svg',
+          darksource: 'assets/brands/dark/1_Dark.svg',
         },
       },
       {
         name: 'gearbest',
         logo: {
-          lightsource: 'assets/brands/2_Sun.svg',
-          darksource: 'assets/brands/2_Dark.svg',
+          lightsource: 'assets/brands/light/2_Sun.svg',
+          darksource: 'assets/brands/dark/2_Dark.svg',
         },
       },
       {
         name: 'allegro',
         logo: {
-          lightsource: 'assets/brands/3_Sun.svg',
-          darksource: 'assets/brands/3_Dark.svg',
+          lightsource: 'assets/brands/light/3_Sun.svg',
+          darksource: 'assets/brands/dark/3_Dark.svg',
         },
       },
       {
         name: 'AliExpress',
         logo: {
-          lightsource: 'assets/brands/4_Sun.svg',
-          darksource: 'assets/brands/4_Dark.svg',
+          lightsource: 'assets/brands/light/4_Sun.svg',
+          darksource: 'assets/brands/dark/4_Dark.svg',
         },
       },
       {
         name: 'bookingcom',
         logo: {
-          lightsource: 'assets/brands/5_Sun.svg',
-          darksource: 'assets/brands/5_Dark.svg',
+          lightsource: 'assets/brands/light/5_Sun.svg',
+          darksource: 'assets/brands/dark/5_Dark.svg',
         },
       },
       {
         name: 'mediaMarket',
         logo: {
-          lightsource: 'assets/brands/6_Sun.svg',
-          darksource: 'assets/brands/6_Dark.svg',
+          lightsource: 'assets/brands/light/6_Sun.svg',
+          darksource: 'assets/brands/dark/6_Dark.svg',
         },
       },
       {
         name: 'rtveuroagd',
         logo: {
-          lightsource: 'assets/brands/7_Sun.svg',
-          darksource: 'assets/brands/7_Dark.svg',
+          lightsource: 'assets/brands/light/7_Sun.svg',
+          darksource: 'assets/brands/dark/7_Dark.svg',
         },
       },
       {
         name: 'groupon',
         logo: {
-          lightsource: 'assets/brands/8_Sun.svg',
-          darksource: 'assets/brands/8_Dark.svg',
+          lightsource: 'assets/brands/light/8_Sun.svg',
+          darksource: 'assets/brands/dark/8_Dark.svg',
         },
       },
     ],
