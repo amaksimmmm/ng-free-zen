@@ -43,12 +43,14 @@ export const data = {
     ],
     links: [
       {
-        name: 'apple',
+        type: 'image',
         url: 'https://apple.com',
+        content: 'apple',
       },
       {
-        name: 'google',
+        type: 'image',
         url: 'https://google.com',
+        content: 'google',
       },
     ],
     image: {
@@ -158,133 +160,122 @@ export const data = {
     ],
   },
   secondaryInfo: {
-    categories:[
+    columns:[
       {
-        name: 'Learn',
+        title: {
+          content:'Learn',
+          priority: 3,
+        },
         links: [
           {
             url: 'http://example.com',
-            content: {
-              type: 'text',
-              data: 'Help center',
-            },
+            type: 'text',
+            content: 'Help center',
           },
           {
             url: 'http://example.com',
-            content: {
-              type: 'text',
-              data: 'Join ZEN team',
-            },
+            type: 'text',
+            content: 'Join ZEN team',
           },
           {
             url: 'http://example.com',
-            content: {
-              type: 'text',
-              data: 'Privacy Policy',
-            },
+            type: 'text',
+            content: 'Privacy Policy',
           },
           {
             url: 'http://example.com',
-            content: {
-              type: 'text',
-              data: 'Cookies'
-            },
+            type: 'text',
+            content: 'Cookies',
           },
           {
             url: 'http://example.com',
-            content: {
-              type: 'text',
-              data: 'Terms of use',
-            },
+            type: 'text',
+            content: 'Terms of use',
           },
         ],
       },
       {
-        name: 'Discover',
+        title: {
+          content:'Discover',
+          priority: 3,
+        },
         links: [
           {
             url: 'http://example.com',
-            content: {
-              type: 'text',
-              data: 'For developers'
-            },
+            type: 'text',
+            content: 'For developers',
           },
           {
             url: 'http://example.com',
-            content: {
-              type: 'text',
-              data: 'Apple Pay'
-            },
+            type: 'text',
+            content: 'Apple Pay',
           },
           {
             url: 'http://example.com',
-            content: {
-              type: 'text',
-              data: 'Google Pay'
-            },
+            type: 'text',
+            content: 'Google Pay',
           },
         ],
       },
       {
-        name: 'Offer',
+        title: {
+          content:'Offer',
+          priority: 3,
+        },
         links: [
           {
             url: 'http://example.com',
-            content: {
-              type: 'text',
-              data: '',
-            },
-            name: 'Business',
+            type: 'text',
+            content: 'Business',
           },
           {
             url: 'http://example.com',
-            content: {
-              type: 'text',
-              data: 'Personal',
-            },
+            type: 'text',
+            content: 'Personal',
           },
         ],
       },
       {
-        name: 'Language',
+        title: {
+          content:'Language',
+          priority: 3,
+        },
         links: [
           {
             url: 'http://example.com',
-            content: {
-              type: 'text',
-              data: 'English'
-            },
+            type: 'text',
+            content: 'English'
           },
           {
             url: 'http://example.com',
-            content: {
-              type: 'text',
-              data: 'Polish',
-            },
+            type: 'text',
+            content: 'Polish',
           },
         ]
       },
       {
-        name: 'Follow Us',
+        title: {
+          content:'Follow Us',
+          priority: 3,
+        },
         links: [
           {
             url: 'http://example.com',
-            content: {
-              type: 'imege',
-              data: 'assets/icons/in.svg',
-            },
+            type: 'image',
+            content: 'Linkedin',
           },
         ],
       },
       {
-        name: 'Contact',
+        title: {
+          content:'Contact',
+          priority: 3,
+        },
         links: [
           {
             url: 'mailto:hello@zen.com',
-            content: {
-              type: 'email',
-              data: 'hello@zen.com',
-            },
+            type: 'text',
+            content: 'hello@zen.com',
           },
         ],
       },
@@ -299,17 +290,8 @@ export const data = {
     ],
     developer: {
       url: 'http://example.com',
-      content: {
-        type: 'imege',
-        data: 'assets/icons/developer.svg',
-      },
+      type: 'imege',
+      contact: 'assets/icons/developer.svg',
     },
   },
 };
-
-// const header = {
-//   buttonLogo: {
-//     name: 'ZEN',
-//     sourceIcon: 'assets/icons/logo.svg'
-//   },
-// };
