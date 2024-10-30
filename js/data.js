@@ -294,4 +294,52 @@ export const data = {
       contact: 'assets/icons/developer.svg',
     },
   },
+  modal: {
+    button: {
+      url: 'assets/icons/close.svg',
+      type: 'image',
+      content: 'close',
+    },
+    title: {
+      content: 'Order a consultation',
+      priority: 3,
+    },
+    input: [
+      {
+        type: 'text',
+        placeholder: 'Name',
+        id: 'name',
+      },
+      {
+        type: 'tel',
+        placeholder: 'Tel',
+        id: 'tel',
+      },
+      {
+        type: 'email',
+        placeholder: 'E-mail',
+        id: 'email',
+      },
+    ],
+    selectText: 'Connection',
+    selects: [
+      {
+        value: '',
+        optionText: '',
+      },
+      {
+        value: 'telegram',
+        optionText: 'Telegram',
+      },
+      {
+        value: 'whatsapp',
+        optionText: 'WhatsApp',
+      },
+    ],
+    checkbox: {
+      url: 'https://example.com/policy',
+      content: 'Privacy policy',
+    },
+    buttonText: 'Submit',
+  },
 };

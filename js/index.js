@@ -6,6 +6,7 @@ import { Care } from './widgets/Care/index.js';
 import { Cashback } from './widgets/Cashback/index.js';
 import { Clients } from './widgets/Clients/index.js';
 import { Footer } from './widgets/Footer/index.js';
+import { Modal } from './widgets/Modal/Modal.js';
 
 const $root = document.querySelector('#root');
 
@@ -16,6 +17,7 @@ $root?.insertAdjacentHTML('beforeend', Care(data.care));
 $root?.insertAdjacentHTML('beforeend', Cashback(data.cashback));
 $root?.insertAdjacentHTML('beforeend', Clients(data.clients));
 $root?.insertAdjacentHTML('beforeend', Footer(data.secondaryInfo));
+$root?.insertAdjacentHTML('beforeend', Modal(data.modal));
 
 const $logo = document.querySelector('#logo');
 
