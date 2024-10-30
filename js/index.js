@@ -6,7 +6,7 @@ import { Care } from './widgets/Care/index.js';
 import { Cashback } from './widgets/Cashback/index.js';
 import { Clients } from './widgets/Clients/index.js';
 import { Footer } from './widgets/Footer/index.js';
-import { Modal } from './widgets/Modal/Modal.js';
+import { Modal } from './widgets/Modal/index.js';
 
 const $root = document.querySelector('#root');
 

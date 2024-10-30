@@ -1,11 +1,15 @@
 import { Input } from "../Input/index.js";
-import { Select } from "../Select/Select.js";
+import { Select } from "../Select/index.js";
 import { Checkbox } from "../../ui/Checkbox/index.js";
 import { Button } from "../../ui/Button/index.js";
 
 /**
+ * @typedef {import('./../../widgets/Modal/types').ModalData} ModalData
+ */
+
+/**
  * @function Form
- * @param {Data} data
+ * @param {ModalData} data
  * @returns {string}
  */
 

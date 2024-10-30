@@ -1,6 +1,6 @@
 import { IconClose } from '../../ui/Icons/IconClose/index.js';
 import { Title } from './../../ui/Title/index.js';
-import { Form } from './../../features/Form/Form.js';
+import { Form } from './../../features/Form/index.js';
 
 /**
  * @typedef {import('./types').ModalData} ModalData
