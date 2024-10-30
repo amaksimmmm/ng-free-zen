@@ -456,7 +456,7 @@ img {
 
 /* modal */
 .modal {
-  display: none;
+  /* display: none; */
   background: rgba(0, 0, 0, 0.6);
 }
 
