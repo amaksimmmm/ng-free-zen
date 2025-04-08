@@ -1,12 +1,19 @@
-.app.light {
+.root[data-theme=light] {
   --color-primary: #000;
   --border-color-primary: #aaa;
   --bg-color-primary: #fff;
+  --bg-color-image: #aaaaaa;
+  --bg-color-link: #222222;
+  --border-color-image: #aaaaaa;
 }
-.app.dark {
+
+.root[data-theme=dark] {
   --color-primary: #fff;
   --border-color-primary: #aaa;
   --bg-color-primary: #484848;
+  --bg-color-image: #ffffff;
+  --bg-color-link: none;
+  --border-color-image: #484848;
 }
 
 /* reset */
@@ -73,17 +80,22 @@ select {
   font-style: normal;
   font-display: swap;
 }
-
 /* global */
 body {
   padding-top: 50px;
   font-family: "Nunito", sans-serif;
   font-size: 14px;
   font-weight: 400;
+  transition: all .5s;
+  &.lock {
+    overflow: hidden;
+  }
 }
 
-.app {
+.root {
+  color: var(--color-primary);
   background: var(--bg-color-primary);
+  --bg-color-image: #ffffff;
 }
 
 input {
@@ -104,8 +116,9 @@ img {
   top: 51px;
   left: 0;
   right: 0;
+  /* height: 100%; */
   width: 100%;
-  background: var(--border-color-primary);
+  background: var(--bg-color-primary);
 }
 .nav__item {
   padding: 24px 15px;
@@ -123,7 +136,7 @@ img {
 .burger.active::before {
   top: 50%;
   transform: translateY(-50%) rotate(45deg);
-  transition: all 2s;
+  transition: all 0.3s ease;
 }
 .burger.active span {
   display: none;
@@ -131,7 +144,7 @@ img {
 .burger.active::after {
   bottom: 50%;
   transform: translateY(50%) rotate(-45deg);
-  transition: all 2s;
+  transition: all 0.3s ease;
 }
 .burger::before {
   content: "";
@@ -456,7 +469,7 @@ img {
 
 /* modal */
 .modal {
-  /* display: none; */
+  display: none;
   background: rgba(0, 0, 0, 0.6);
 }
 

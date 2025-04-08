@@ -8,9 +8,14 @@
     top: 51px;
     left: 0;
     right: 0;
+    height: 100%;
     width: 100%;
-    background: var(--border-color-primary);
+    background: var(--bg-color-primary);
   }
+
+  // &.active {
+  //   top: 0px;
+  // }
 
   &__item {
     padding: 24px 15px;

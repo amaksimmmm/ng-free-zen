@@ -1,4 +1,1 @@
-export type NavIteamData = {
-  name: string;
-  key: string;
-};
+export type { NavIteamData } from '../../types';
