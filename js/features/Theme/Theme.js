@@ -10,7 +10,7 @@ export const Theme = () => `
   <button class="header__theme"
     type="button"
     id="theme"
-    data-theme="ligth"
+    data-theme="light"
   >
     ${IconMoon()}
   </button>
