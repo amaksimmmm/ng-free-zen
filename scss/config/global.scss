@@ -6,8 +6,11 @@ body {
   font-weight: 400;
 }
 
-.app {
+.root {
+  color: var(--color-primary);
   background: var(--bg-color-primary);
+  --bg-color-image: #ffffff;
+
 }
 
 input {

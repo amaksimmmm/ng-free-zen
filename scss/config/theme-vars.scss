@@ -1,23 +1,28 @@
-.app {
-  &.light {
-    // color:
-    --color-primary: #000;
+.root[data-theme="light"] {
+  // color:
+  --color-primary: #000;
 
-    // border-color:
-    --border-color-primary: #aaa;
+  // border-color:
+  --border-color-primary: #aaa;
 
-    //bg-color:
-    --bg-color-primary: #fff;
-  }
+  //bg-color:
+  --bg-color-primary: #fff;
+  --bg-color-image: #aaaaaa;
+  --bg-color-link: #222222;
+  --border-color-image: #aaaaaa;
+}
 
-  &.dark {
-    // color:
-    --color-primary: #fff;
+.root[data-theme="dark"] {
+  // color:
+  --color-primary: #fff;
 
-    // border-color:
-    --border-color-primary: #aaa;
+  // border-color:
+  --border-color-primary: #aaa;
 
-    //bg-color:
-    --bg-color-primary: #484848;
-  }
+  //bg-color:
+  --bg-color-primary: #484848;
+  --bg-color-image: #ffffff;
+  --bg-color-link: none;
+  --border-color-image: #484848;
+
 }
